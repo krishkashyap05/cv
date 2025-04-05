@@ -5,7 +5,7 @@ while (i<noofbtn){
     document.querySelectorAll(".drum")[i].addEventListener("click", handle)
 
     function handle(){
-        Audio.play()
+        audio.play()
     }
     i++
 }
